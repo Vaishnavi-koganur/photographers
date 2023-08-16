@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./photography.css">
+    <!-- <script src="photography.js"></script> -->
+<script>
+function opa()
+    {
+        document.getElementById("ho").style.opacity="0.5";
+    }
+    
+    
+    function nrmlImg()
+    {
+        document.getElementById("ho").style.opacity="1.0";
+    }
+
+    function opa1()
+    {
+        document.getElementById("ho1").style.opacity="0.5";
+    }
+    
+    
+    function nrmlImg1()
+    {
+        document.getElementById("ho1").style.opacity="1.0";
+    }
+
+    function opa2()
+    {
+        document.getElementById("ho2").style.opacity="0.5";
+    }
+    
+    
+    function nrmlImg2()
+    {
+        document.getElementById("ho2").style.opacity="1.0";
+    }
+
+    function opa3()
+    {
+        document.getElementById("ho3").style.opacity="0.5";
+    }
+    
+    
+    function nrmlImg3()
+    {
+        document.getElementById("ho3").style.opacity="1.0";
+    }
+
+
+    function clr(elmnt,clr){
+    elmnt.style.color=clr;
+    }
+
+function toReadMore(){
+    document.getElementById("hide").style.display="none";
+    
+    document.getElementById("readmore").innerHTML="<strong>Why Ansel Adams is so popular? </strong><br><br>Ansel Adams is one of America s most famous photographers and is known for his stunning photos of the American wilderness and his passion for conservation. Ansel Adams photography puts the American wilderness on display, highlighting its enormity and beauty through dramatic black and white photos<br><br><button ondblclick='dblFunc()'>double click to read less</button>";
+    
+
+    // document.getElementById("readless").innerText="double click to read less";
+}
+
+function toReadMore1(){
+    document.getElementById("hide1").style.display="none";
+    
+    document.getElementById("readmore1").innerHTML="<strong>What is the most famous photo by Richard Avedon? </strong><br><br>One of Avedon s most well-known photographs is not of a famous public figure, but a beekeeper. Avedon sought out beekeeper Ronald Fischer to create this jarring photograph. The photo was achieved by spreading queen bee pheromone onto Fischer's skin, attracting a swarm of bees to descend upon his body.<br><br><button ondblclick='dblFunc1()'>double click to read less</button>";
+}
+    function toReadMore2(){
+    document.getElementById("hide2").style.display="none";
+    
+    document.getElementById("readmore2").innerHTML="<strong>What are some fun facts about Eve Arnold?</strong><br><br>Eve Arnold was born in Philadelphia, Pennsylvania to Russian immigrant parents. She began photographing in 1946, while working at a photo-finishing plant in New York City, and then studied photography in 1948 with Alexei Brodovitch at the New School for Social Research in New York Probably Arnold's best-known work is her photography of film star Marilyn Monroe, published in book form in 1987 and revised and reissued in 2005.<br><br><button ondblclick='dblFunc2()'>double click to read less</button>";}
+
+    function toReadMore3(){
+    document.getElementById("hide3").style.display="none";
+    
+    document.getElementById("readmore3").innerHTML="<strong>What are some fun facts about Eve Arnold?</strong><br><br>Eve Arnold was born in Philadelphia, Pennsylvania to Russian immigrant parents. She began photographing in 1946, while working at a photo-finishing plant in New York City, and then studied photography in 1948 with Alexei Brodovitch at the New School for Social Research in New York Probably Arnold's best-known work is her photography of film star Marilyn Monroe, published in book form in 1987 and revised and reissued in 2005.<br><br><button ondblclick='dblFunc3()'>double click to read less</button>";}
+
+function dblFunc(){
+    document.getElementById("readmore").style.display="none";
+    //<button id="hide" onclick="toReadMore()">click here to read more</button>
+    // document.getElementById("hide").style.display="content";
+}
+
+function dblFunc1(){
+    document.getElementById("readmore1").style.display="none";
+    // document.getElementById("hide").style.display="content";
+}
+
+function dblFunc2(){
+    document.getElementById("readmore2").style.display="none";
+    // document.getElementById("hide").style.display="content";
+}
+
+function dblFunc3(){
+    document.getElementById("readmore3").style.display="none";
+    // document.getElementById("hide").style.display="content";
+}
+
+// function blur(){
+//     var x = document.getElementById("name");
+//   var y=x.value.toString();
+//  x.value = y.charAt(0).toUpperCase()+y.slice(1);
+// document.getElementById("name").style.backgroundColor="white";
+
+
+function resetFunc(){
+   alert("form has been reset!!");
+}
+function submitFunc(){
+   alert("form has been submitted successfully!!");
+}
+
+function clrchange(){
+        document.getElementById("name").style.backgroundColor="#D3D3D3";
+    }
+    
+function blur1(){
+        document.getElementById("name").style.backgroundColor="white";
+    }
+
+    function change(){
+     alert("you changed the address");   
+    }
+
+    function myFunction() {
+  alert("You selected some text!");
+}
+   function myform() {
+            var Name =document.forms.RegForm.Name.value;
+            var email =document.forms.RegForm.EMail.value;
+            // var phone =document.forms.RegForm.PhoneNumber.value;
+
+            if (Name == "" || regName.test(Name)) {
+                window.alert("Please enter your name properly.");
+                name.focus();
+                return false;
+            }
+            if (email == "" || !regEmail.test(email)) {
+                window.alert("Please enter a valid e-mail address.");
+                email.focus();
+                return false;
+            }
+           
+        
+   }
+
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <h4>PHOTOGRAPHY BY FAMOUS PHOTOGRAPHERS</h4>
+
+        <h1 class="header-txt">Top three Photographers in the World</h1>
+    </header>
+
+    <div class="h3text">
+        <h3>Ansel Adams</h3>
+        <h3>Richard Avedon</h3>
+        <h3>Eve Arnold</h3>
+        <h3>Raghu Rai</h3>
+        <h3>Pushpamala N.</h3>
+    </div>
+    <div class="detailCard">
+        <h2>Ansel Easton Adams</h2>
+        <div class="paracontainer">
+            <div class="imgPara"> 
+                <img id="ho" onmouseover="opa()" onmouseout="nrmlImg()" border="0" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Ansel_Adams_and_camera.jpg" alt="Ansel Easton Adams" opacity="1.0";>
+
+                <h3 class="h3para"></h3>
+            </div>
+
+            <div class="textPara">
+
+                <p onmousedown="clr(this,'grey')" onmouseup="clr(this,'black')">Ansel Easton Adams (February 20, 1902 – April 22, 1984) was an American landscape photographer and
+                    environmentalist known for his black-and-white images of the American West. He helped found Group
+                    f/64, an
+                    association of photographers advocating "pure" photography which favored sharp focus and the use of
+                    the full
+                    tonal range of a photograph. He and Fred Archer developed a system of image-making called the Zone
+                    System, a
+                    method of achieving a desired final print through a technical understanding of how the tonal range
+                    of an
+                    image
+                    is the result of choices made in exposure, negative development, and printing.
+
+                    Adams was a life-long advocate for environmental conservation, and his photographic practice was
+                    deeply
+                    entwined
+                    with this advocacy. At age 12, he was given his first camera during his first visit to Yosemite
+                    National
+                    Park.
+                    He developed his early photographic work as a member of the Sierra Club. He was later contracted
+                    with the
+                    United
+                    States Department of the Interior to make photographs of national parks. For his work and his
+                    persistent
+                    advocacy, which helped expand the National Park system, he was awarded the Presidential Medal of
+                    Freedom in
+                    1980.</p>
+
+                <p onmousedown="clr(this,'black')" onmouseup="clr(this,'grey')">.</p>
+                    
+                    <button id="hide" onclick="toReadMore()">click here to read more</button>
+                    <p id="readmore"></p><br>
+                    <!-- <p id="readless"></p> -->
+                    <!-- <p ondblclick="toReadLess()">double click to read less</p> -->
+                    
+                <h4> "To view The Ansel Adams Art Gallery click the below link"</h4>
+                <a href="https://www.anseladams.com/">Ansel Adam's Gallery</a>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="detailCard">
+        <h2>Richard Avedon</h2>
+        <div class="paracontainer">
+            <div class="imgPara">
+                <img  id="ho1" onmouseover="opa1()" onmouseout="nrmlImg1()" border="0" src="data:image/jpeg;base64,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" opacity="1.0;">
+                <h3 class="h3para"></h3>
+            </div>
+
+            <div class="textPara">
+
+                <p onmousedown="clr(this,'grey')" onmouseup="clr(this,'black')"></p>
+
+                <p onmousedown="clr(this,'grey')" onmouseup="clr(this,'black')">
+                </p>
+                <button id="hide1" onclick="toReadMore1()">click here to read more</button>
+                    <p id="readmore1"></p><br>
+                <h4> "To view The Richard Avedon Art Gallery click the below link"</h4>
+                <a href="https://www.moma.org/artists/248">Museum of Modern Art</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="detailCard">
+
+        <h2>Eve Arnold</h2>
+        <div class="paracontainer">
+            <div class="imgPara"> <img  id="ho2" onmouseover="opa2()" onmouseout="nrmlImg2()" border="0"src="data:image/jpeg;base64,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"  opacity="1.0";>
+
+                <h3 class="h3para"> </h3>
+            </div>
+            <div class="textPara">
+                <p onmousedown="clr(this,'grey')" onmouseup="clr(this,'black')">Arnold's images of Marilyn Monroe on the set of The Misfits (1961) were perhaps her most memorable,
+                    but she
+                    had taken many photos of Monroe from 1951 onwards. The intimate candid-style photos achieve Arnold's
+                    goal to
+                    show Monroe's anxieties about being the subject of constant media attention.[5] She befriended
+                    Monroe, Joan
+                    Crawford, and many of her other subjects in order to write about them and photograph them better.[1]
+                    Her
+                    previously unseen photos of Monroe were shown at a Halcyon Gallery exhibition in London during May
+                    2005.
+                    Travel characterized much of Arnold's work, as she took interest in photographing the Civil Rights
+                    and Black
+                    Power movements in the United States as well as in the rigid Soviet Union and in China.</p>
+                <p onmousedown="clr(this,'grey')" onmouseup="clr(this,'black')"> Arnold always
+                    strived to go deeper with her photography; she even returned from some shoots with cigarette burns
+                    on her
+                    clothing from a disapproving crowd.[7] She produced a film in 1971, Women Behind the Veil, focusing
+                    on
+                    Arabian harems and hammams.
+
+                    Although the series launched her career, she later wrote in a diary entry that the editor of the
+                    magazine changed her captions and reversed the message of her photographs to fit a racist
+                    narrative.[6] She then became interested in African American migrant workers suffering housing
+                    discrimination in Long Island.[5] She became the first woman to join the Magnum Agency, becoming a
+                    full member in 1957.</p>
+                <P onmousedown="clr(this,'grey')" onmouseup="clr(this,'black')"> Arnold spent time covering republican press events, the McCarthy hearings, and explored the taboo
+                    subject of birth. She was well aware of the underrepresentation of women photojournalists and the
+                    position of women celebrities in the public eye. Arnold explored these ideas about women in her full
+                    length photo book The Unretouched Woman, published in 1976.[1]
+
+                    Arnold's images of Marilyn Monroe on the set of The Misfits (1961) were perhaps her most memorable,
+                    but she had taken many photos of Monroe from 1951 onwards. The intimate candid-style photos achieve
+                    Arnold's goal to show Monroe's anxieties about being the subject of constant media attention.[5] She
+                    befriended Monroe, Joan Crawford, and many of her other subjects in order to write about them and
+                    photograph them better.</p>
+                    <button id="hide2" onclick="toReadMore2()">click here to read more</button>
+                    <p id="readmore2"></p><br>
+                <h4> "To view The Eve Arnold Art Gallery click the below link"</h4>
+
+                <a href="https://www.artsy.net/artist/eve-arnold">Art Gallery of eve-arnold</a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="detailCard">
+        <h2>Raghu Rai</h2>
+        <div class="paracontainer">
+            <div class="imgPara">
+                <img id="ho3" onmouseover="opa3()" onmouseout="nrmlImg3()" border="0" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Raghu_Rai_pix_by_Vikramjit_Kakati.jpg" alt="Raghu Rai" opacity="1.0";>
+                <h3 class="h3para"> </h3>
+            </div>
+
+            <div class="textPara">
+
+                <p onmousedown="clr(this,'grey')" onmouseup="clr(this,'black')">Rai was born in the village of Jhang, Punjab, British India (now in Pakistan).[5][10] He was the
+                    youngest of
+                    four children.[5]
+                    Career
+                    Rai started learning photography in 1962 under his elder brother Sharampal Chowdhry, better known as
+                    S Paul
+                    who is a photographer, and in 1965 joined "The Statesman" newspaper as its chief photographer.</p>
+                <p> He and his fellow journalist Saeed Naqvi visited maharishi’s ashram in the spring of 1968 when The
+                    Beatles arrived.[11] Rai left "The Statesman" in 1976 to work as picture editor for "Sunday," a
+                    weekly news
+                    magazine published in Calcutta. Impressed by an exhibit of his work in Paris in 1971, Henri
+                    Cartier-Bresson
+                    nominated Rai to join Magnum Photos in 1977.
+
+                    Rai left "Sunday" in 1980 and worked as a Picture Editor/Visualizer/Photographer of "India Today"
+                    during its
+                    formative years. From 1982 to 1991, he worked on special issues and designs, contributing picture
+                    essays on
+                    social, political, and cultural themes.[citation needed]
+
+                    Rai has specialised in extensive coverage of India. He has produced more than 18 books, including
+                    Raghu
+                    Rai's Delhi, The Sikhs, Calcutta, Khajuraho, Taj Mahal, Tibet in Exile, India, and Mother Teresa.
+                    His photo
+                    essays have appeared in many magazines and newspapers including Time, Life, GEO, The New York Times,
+                    Sunday
+                    Times, Newsweek, The Independent, and the New Yorker.</p>
+                <p onmousedown="clr(this,'grey')" onmouseup="clr(this,'black')">In 2003, while on an assignment for Geo Magazine in Bombay City, he switched to using a digital Nikon
+                    D100 camera "and from that moment to today, I haven't been able to go back to using film."[13]
+
+                    He has served three times on the jury of the World Press Photo and twice on the jury of UNESCO's
+                    International Photo Contest.[citation needed]
+
+                    In 2017, Avani Rai, his daughter followed her father on one of his trips to Kashmir to get an
+                    insight into his life and know him better. She documented this journey and released a documentary on
+                    it called Raghu Rai: An Unframed Portrait. It depicts a historical narrative through Raghu Rai's
+                    photographs through time, as he tells some of his unique experiences that not only affected him
+                    deeply but also important landmarks in the young yet crucial history of India. It was executive
+                    produced by Anurag Kashyap</p>
+                    <button id="hide3" onclick="toReadMore3()">click here to read more</button>
+                    <p id="readmore3"></p><br>
+
+                <h4>"To view The Art Gallery of Raghu Rai click the below link"</h4>
+
+                <a href="https://www.magnumphotos.com/photographer/raghu-rai/">Raghu Rai'art Gallery</a>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <table border="border">
+    
+        <tr class="table">
+            <th>Name</th>
+            <th>Bdate-death</th>
+            <th>Camera used</th>
+            <th>Style of photography</th>
+            <th>Famous photo</th>
+            <th>Awards</th>
+            <th>Exhibition</th>
+        </tr>
+
+        <tr class="table2">
+            <td>Ansel Adams</td>
+            <td>Feb 20 1902 — Apr 22,1984 </td>
+            <td>Hasselblad</td>
+            <td>punchy black and white images(realist style)</td>
+            <td>
+                <ul>
+                    <li>Monolith</li>
+                    <li> The Face Of Half Dome</li>
+                    <li> Yosemite Valley</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Presidential Medal of Freedom</li>
+                    <li> Hasselblad Award</li>
+                    <li> Sierra Club John Muir Award</li>
+                </ul>
+            </td>
+
+
+            <td>
+                <ul>
+                    <li>Fullerton Museum Center</li>
+                    <li>de Young Museum – Herbst Exhibition Galleries
+                    </li>
+                    <li>Torggler Fine Arts Center – Anne Noland Edwards Gallery</li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="table2">
+            <td>Richard Avedon</td>
+            <td>May 15,1923-October 1,2004</td>
+            <td> Rolleiflex twin lens camera</td>
+            <td>minimalism</td>
+            <td>Marilyn Monroe</td>
+
+            <td>
+                <ul>
+                    <li>Lifetime Achievement Award </li>
+                    <li>Hasselblad Award</li>
+                    <li>Kitty Carlisle Hart Award</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>The Metropolitan Museum of Art</li>
+                    <li> Whitney Museum of American Art</li>
+                    <li>Louisiana Museum of Modern Art</li>
+                </ul>
+            </td>
+        </tr>
+
+
+        <tr class="table2">
+            <td> Raghu Rai</td>
+            <td>Dec 18,1942</td>
+            <td>Nikon D800</td>
+            <td>intuitive, honest, and bold</td>
+            <td>portrait of Indira Gandhi</td>
+            <td>
+                <ul>
+                    <li>Padmashree</li>
+                    <li>Photographer of the Year from USA</li>
+                    <li>Academie des Beaux Arts Photography Award</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Retrospective – National Gallery of Modern Art</li>
+                    <li>Volkart Foundation</li>
+                    <li>My India – FotoFreo,Australia</li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="table2">
+
+            <td> Eve Arnold </td>
+
+            <td>21 April 1912-4 January 2012</td>
+            <td>Pentax camera,</td>
+            <td> black and white</td>
+            <td> intimate portraits of stars like Marilyn Monroe</td>
+            <td>
+                <ul>
+                    <li>Lifetime Achievement Award</li>
+                    <li>National Book Award</li>
+                    <li>Doctor of Humanities, Richmond, the American International University</li>
+
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Vadehra art Gallery</li>
+                    <li>India habitat centre,visual arts Gallery</li>
+                    <li>Anant art Gallery</li>
+
+                </ul>
+            </td>
+        </tr>
+        </div>
+    </table>
+    <br><br><br><br><br><br>
+    <fieldset>
+
+        <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLogin
+            to view the photographs</h3>
+
+        <form method="post" action="photography.php" onsubmit="submitFunc()" onreset="resetFunc()" name="RegForm">
+            <div class="Center">
+                <label>your first name:</label>
+                <input type="text" placeholder="Enter your name"   onfocus="clrchange()" onblur="blur1()" id="name" name="name1">
+
+                <label for="Email">Enter your Email:</label>
+                <input type="email" placeholder="Enter your Email"  id="Email" name="Email1">
+
+                <label for="PhoneNumber">Enter your phone number:</label>
+                <input type="number" placeholder="phone number"  id="PhoneNumber" name="PhoneNumber1" onchange="change()">
+
+                <div><label>Gender:</label></div>
+                <div>
+                    <label for="mf">Male</label>
+                    <input type="radio" name="sex1"  id="mf" checked>
+
+                    <label for="mf1">Female</label>
+                    <input type="radio" name="sex1" id="mf1" ><br>
+
+                    <!-- <div><label for="">enter photograph of your choice</label></div>
+                 <input type="checkbox" name="" id="check">Ansel Adams -->
+
+                </div>
+
+                <label for="conName">Country Name:</label>
+                <input type="text"  id="conName" name="conName1"  value="Hello world!" onselect="myFunction()" >
+
+                <label for="add">Address:</label>
+                <input type="textarea" placeholder="Address" id="add" name="add1"><br>
+              
+               
+     
+            </div><br><br>
+           <div><label for="">select photographer  of your interest:</label>
+                <br>
+                 <input type="checkbox" value="">Eve Arnold<br>
+                 <input type="checkbox" value="">Richard Avedon<br>
+                 <input type="checkbox" value="">Raghu Rai<br>
+                 <input type="checkbox" value="">Pushpamala N<br><br>
+            </div>
+                        <div class="formbtn">
+                <input type="submit" id="sub" >             
+                                    
+                <div class="lineor"><hr />or<hr /></div>
+                <input type="reset" > 
+            </div>
+    </fieldset>
+    </form>
+
+</body>
+
+</html>
